@@ -4,10 +4,16 @@ body{
 }
 .ancor{
     text-decoration: none;
+    color: white;
+    background-image: linear-gradient(45deg, rgb(236, 119, 72), rgb(219, 61, 33));
+    padding: 10px 30px;
+    border-radius: 4px;
+    font-size: 15px;
 }
-sectoin{
-    height: 700px;
+.frist-section{
+    height: 800px;
     background-image: url("per/header-bg.png");
+    background-size: cover;
    
 }
 
@@ -26,7 +32,7 @@ section img{
     font-size: 35px;
 }
 .jack-div{
-    margin-left: 12%;
+    margin-left: 25%;
     margin-top: 15%;
     
  
@@ -40,7 +46,115 @@ h2{
     margin-right: 5%;
     margin-top: 7%;
     margin-bottom: 2%;
+    width: 40%;
 }
 p{
     color: rgb(88, 83, 83);
+}
+.peater-2{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 0%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+
+
+}
+.secound-section{
+    height: 800px;
+    background-image: url("per/biography-bg.png");
+    background-size: cover;
+}
+.jack-div2{
+    margin-top: 15%;
+    margin-left: 10%;
+}
+.work{
+    text-align: center;
+    margin-top: 100px;
+}
+#work-1{
+    height: 250px;
+    width: 350px;
+    margin-left: 15%;
+}
+#work-2{
+    height: 250px;
+    width: 350px;
+}
+#work-3{
+    height: 250px;
+    width: 350px;
+    margin-right: 10%;
+}
+div{
+    width: 30%;
+}
+#frist-div{
+    width: 35%;
+}
+#nd-div{
+    width: 30%;
+}
+#rd-div{
+    width: 4%;
+}
+.third-section{
+    height: 400px;
+    background-image: url("per/latest-work-bg.png");
+    background-size: cover;
+}
+.client{
+    text-align: center;
+    margin-top: 100px;
+}
+.client-2{
+    text-align: center;
+    margin-top: 70px;
+}
+.client-3{
+    text-align: center;
+  margin: bottom 250px;
+}
+.line-height{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: -10px;
+
+}
+#line-height{
+    text-align: center;
+}
+.loren-ipsum{
+    text-align: center;
+    margin-top: 50px;
+    color: black;
+}
+.massage{
+    text-align: center;
+  
+}
+.massage1{
+    color: white;
+    text-align: center;
+    margin-top: 70px;
+    border: 0px solid;
+    background-image: linear-gradient(90deg, #e7478f, #f5167a);
+    padding: 50px 100px;
+    border-radius: 8px;
+    width: 300px;
+    margin-left: 380px;
+}
+.rights{
+    color: rgb(117, 117, 117);
+    text-align: center;
+    margin-top: 150px;
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+.last-section{
+    background-image: url(per/footer-bg.png);
+    background-size: cover;
+    height: 600px;
 }
